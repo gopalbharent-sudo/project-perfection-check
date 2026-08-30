@@ -81,8 +81,16 @@ const ingredients = [
 
 const ritual = [
   { step: "01", title: "Cleanse", note: "Cleanse and pat the face dry before bed." },
-  { step: "02", title: "Apply", note: "Massage a small amount over face and neck in upward circles." },
-  { step: "03", title: "Absorb", note: "Let the serum-cream sink in overnight — no greasy residue." },
+  {
+    step: "02",
+    title: "Apply",
+    note: "Massage a small amount over face and neck in upward circles.",
+  },
+  {
+    step: "03",
+    title: "Absorb",
+    note: "Let the serum-cream sink in overnight — no greasy residue.",
+  },
   { step: "04", title: "Repeat", note: "Every night for seven days to see the glow settle in." },
 ];
 
@@ -254,7 +262,10 @@ function LandingPage() {
         </section>
 
         {/* Main product details */}
-        <section id="night" className="scroll-mt-28 mx-auto w-full max-w-6xl px-5 sm:px-7 lg:px-8 py-14 sm:py-20 lg:py-28">
+        <section
+          id="night"
+          className="scroll-mt-28 mx-auto w-full max-w-6xl px-5 sm:px-7 lg:px-8 py-14 sm:py-20 lg:py-28"
+        >
           <Reveal>
             <SectionHeading
               eyebrow="The Signature Product"
@@ -387,7 +398,10 @@ function LandingPage() {
         </section>
 
         {/* Signature spotlight — Body Cream */}
-        <section id="signature" className="scroll-mt-28 relative overflow-hidden border-t border-border/60">
+        <section
+          id="signature"
+          className="scroll-mt-28 relative overflow-hidden border-t border-border/60"
+        >
           <div
             className="pointer-events-none absolute inset-0"
             aria-hidden="true"
@@ -398,7 +412,10 @@ function LandingPage() {
           />
           <div className="mx-auto w-full max-w-6xl px-5 sm:px-7 lg:px-8 relative py-14 sm:py-20 lg:py-28">
             <Reveal>
-              <SectionHeading eyebrow="The Signature Cream" title="Body Cream — Skin Whitening & Serum" />
+              <SectionHeading
+                eyebrow="The Signature Cream"
+                title="Body Cream — Skin Whitening & Serum"
+              />
             </Reveal>
 
             <div className="mt-10 grid items-center gap-9 sm:mt-14 sm:gap-12 lg:grid-cols-2">
@@ -493,7 +510,10 @@ function LandingPage() {
         </section>
 
         {/* Brand story */}
-        <section id="story" className="scroll-mt-28 mx-auto w-full max-w-3xl px-5 sm:px-7 lg:px-8 py-14 text-center sm:py-20 lg:py-28">
+        <section
+          id="story"
+          className="scroll-mt-28 mx-auto w-full max-w-3xl px-5 sm:px-7 lg:px-8 py-14 text-center sm:py-20 lg:py-28"
+        >
           <Reveal>
             <GoldDivider />
             <blockquote className="mt-8 text-balance font-display text-2xl font-medium italic leading-snug text-ivory sm:mt-10 sm:text-3xl lg:text-4xl">

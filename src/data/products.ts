@@ -83,7 +83,8 @@ export const collection: Product[] = [
       forAll,
       madeIn,
     ],
-    usage: "Pump a pea-sized amount onto cleansed skin and massage gently over face and neck, morning and night.",
+    usage:
+      "Pump a pea-sized amount onto cleansed skin and massage gently over face and neck, morning and night.",
   },
   {
     name: "Skin Whitening & Serum Night Cream",
@@ -180,7 +181,10 @@ export const collection: Product[] = [
     specs: [
       { label: "Pack", value: "3 x 10 tablets" },
       { label: "M.R.P.", value: "₹1,299 (incl. of all taxes)" },
-      { label: "Key Actives", value: "L-Glutathione, Vitamin C, NAC, Alpha Lipoic Acid, Astaxanthin" },
+      {
+        label: "Key Actives",
+        value: "L-Glutathione, Vitamin C, NAC, Alpha Lipoic Acid, Astaxanthin",
+      },
       { label: "Type", value: "Nutraceutical · Vegetarian" },
       madeIn,
     ],
@@ -280,7 +284,10 @@ export const collection: Product[] = [
     specs: [
       { label: "Net Weight", value: "30 g" },
       { label: "M.R.P.", value: "₹699 (incl. of all taxes)" },
-      { label: "Key Actives", value: "Glutathione, Vitamin C, Alpha Arbutin, Licorice, Kojic Acid Dipalmitate" },
+      {
+        label: "Key Actives",
+        value: "Glutathione, Vitamin C, Alpha Arbutin, Licorice, Kojic Acid Dipalmitate",
+      },
       forAll,
       madeIn,
     ],
@@ -334,7 +341,8 @@ export const collection: Product[] = [
       forAll,
       madeIn,
     ],
-    usage: "Wash with the soap, apply the cream morning and night, and take one tablet daily after a meal.",
+    usage:
+      "Wash with the soap, apply the cream morning and night, and take one tablet daily after a meal.",
   },
   {
     name: "Gold Radiance Face Scrub",
