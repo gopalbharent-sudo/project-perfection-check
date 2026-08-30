@@ -254,7 +254,7 @@ function LandingPage() {
         </section>
 
         {/* Main product details */}
-        <section id="signature" className="scroll-mt-28 mx-auto w-full max-w-6xl px-5 sm:px-7 lg:px-8 py-14 sm:py-20 lg:py-28">
+        <section id="night" className="scroll-mt-28 mx-auto w-full max-w-6xl px-5 sm:px-7 lg:px-8 py-14 sm:py-20 lg:py-28">
           <Reveal>
             <SectionHeading
               eyebrow="The Signature Product"
@@ -387,7 +387,7 @@ function LandingPage() {
         </section>
 
         {/* Signature spotlight — Body Cream */}
-        <section id="night" className="scroll-mt-28 relative overflow-hidden border-t border-border/60">
+        <section id="signature" className="scroll-mt-28 relative overflow-hidden border-t border-border/60">
           <div
             className="pointer-events-none absolute inset-0"
             aria-hidden="true"
