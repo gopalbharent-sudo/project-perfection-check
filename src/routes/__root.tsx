@@ -77,21 +77,46 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Glowaura-B3 — Premium Skincare" },
+      {
+        name: "description",
+        content:
+          "Glowaura-B3 premium skincare. Discover the Skin Whitening & Serum Body Cream and the full Glowaura-B3 collection.",
+      },
+      { name: "author", content: "Glowaura-B3" },
+      { property: "og:title", content: "Glowaura-B3 — Premium Skincare" },
+      {
+        property: "og:description",
+        content:
+          "Advanced formulas for skin lightening & brightening. Explore the Glowaura-B3 collection.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Glowaura-B3" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", type: "image/png", href: "/favicon.png" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Glowaura-B3",
+          description: "Premium skincare for skin lightening & brightening.",
+        }),
+      },
     ],
   }),
   shellComponent: RootShell,
